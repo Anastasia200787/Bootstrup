@@ -1,0 +1,58 @@
+.promo {
+  padding-top: 150px;
+  background: #f5f5f5;
+}
+
+.promo_title {
+  font-size: 50px;
+  text-align: center;
+  span {
+    color: #fc6f4e;
+  }
+}
+
+.promo_text {
+  max-width: 705px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.form {
+  background: #ffffff;
+  margin-top: 114px;
+  padding: 29px 39px;
+  box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  text-align: center;
+  input,
+  textarea {
+    width: 100%;
+    font-size: 15px;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+    outline: none;
+    &::placeholder {
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+  input {
+    margin-bottom: 35px;
+  }
+  textarea {
+    margin-bottom: 20px;
+    height: 85px;
+    resize: none;
+  }
+}
+
+.form_text {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 45px;
+  color: #37302f;
+  span {
+    color: #ff7255;
+  }
+}

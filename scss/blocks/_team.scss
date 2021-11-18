@@ -1,0 +1,81 @@
+.team {
+  padding: 145px 0 152px;
+  background: #fbfbfb;
+}
+
+.team_items {
+  margin-top: 127px;
+  text-align: center;
+}
+
+.team_item {
+  height: 445px;
+  background: #ff5c36;
+  position: relative;
+  padding: 170px 20px 20px;
+}
+
+.team_item_card {
+  box-shadow: 0px 6px 16px 0px rgba(20, 20, 21, 0.08);
+  position: absolute;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.702);
+  padding: 21px 45px;
+  text-align: center;
+  width: 80%;
+  left: 50%;
+  bottom: -70px;
+  transform: translateX(-50%);
+}
+
+.al_rayhan {
+  background: #fff3f0;
+  box-shadow: 0px 0px 49px 0px rgba(20, 20, 21, 0.11);
+  .team_item_proffesion {
+    color: rgba(255, 114, 76, 0.902);
+  }
+  .team_item_name {
+    margin-bottom: 0;
+    margin-top: 55px;
+  }
+}
+
+.team_item_name {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.team_item_skills {
+  margin-top: 10px;
+  p {
+    margin-bottom: 3px;
+  }
+  &:nth-child(2) {
+    .team_item_line {
+      div {
+        width: 70%;
+      }
+    }
+  }
+}
+
+.team_item_line {
+  width: 150px;
+  height: 4px;
+  background: #817f7e;
+  margin: 0 auto;
+  div {
+    width: 80%;
+    height: 4px;
+    background: #ff6e47;
+  }
+}
+
+.team_item_social {
+  
+  a {
+    margin: 0 7px;
+  }
+  
+}

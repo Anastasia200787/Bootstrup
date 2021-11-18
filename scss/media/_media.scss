@@ -1,0 +1,61 @@
+@media (max-width: 1200px) {
+  .clients_slider_btn.left {
+    left: -20px;
+  }
+
+  .clients_slider_btn.right {
+    right: -20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .process_item {
+    margin: 25px 0;
+  }
+
+  .team_item {
+    margin: 30px 0;
+  }
+
+  .team_item_card {
+    bottom: -40px;
+  }
+
+  .company_items {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .clients_slide.hidden {
+    display: none;
+  }
+  .services_img {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .services_img_box {
+    display: none;
+  }
+
+  .clients_slider_btn.left {
+    left: -8px;
+  }
+
+  .clients_slider_btn.right {
+    right: -8px;
+  }
+
+  .footer_wrapper {
+    flex-direction: column;
+  }
+
+  .footer_copy {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
